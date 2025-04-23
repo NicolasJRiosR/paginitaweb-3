@@ -54,6 +54,7 @@ nav ul li a:hover {
 
 
 #songs {
+     line-height: 19px;
   text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
     margin: 2rem auto;
