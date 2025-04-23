@@ -1,79 +1,99 @@
-/* Fuente y base */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  background: linear-gradient(to bottom, #ffe0ec, #fff);
-  color: #333;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('minecraft-5820118_1920.png');
+    background-repeat: repeat;
+    background-size: 70px 70px; 
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
 }
 
-/* Navegación */
+
+/* Navegación estilo bloque mejorado */
 nav {
-  background-color: #ff99bb;
-  padding: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(46, 125, 50, 0.95); /* Verde oscuro semi-transparente */
+  padding: 1.2rem 1rem;
+  border-bottom: 5px solid #1b5e20;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px); /* efecto más nítido */
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
 nav ul li a {
+  color: #fff;
   text-decoration: none;
-  color: white;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  background-color: #ff4d88;
-  border-radius: 12px;
-  transition: background-color 0.3s ease;
+  background-color: #4caf50;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  border: 2px solid #2e7d32;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 2px #000;
 }
 
 nav ul li a:hover {
-  background-color: #ff1a66;
+  background-color: #66bb6a;
+  transform: scale(1.05);
 }
 
-/* Sección canciones */
+
 #songs {
-  padding: 2rem;
+  text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
 }
 
 #songs h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #cc0052;
-}
-
-#songs p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  color: #555;
+    color: #a5d6a7;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 2px #000;
 }
 
 #songs h2 {
-  color: #e6005c;
-  margin-top: 2rem;
+    color: #c5e1a5;
+    margin-top: 2rem;
+    font-size: 1rem;
 }
 
-iframe {
-  margin: 1rem auto;
-  display: block;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+video {
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem auto;
+    display: block;
+    border: 3px solid #43a047;
+    border-radius: 8px;
+    background-color: #000;
 }
 
-/* Footer */
+
 footer {
-  background-color: #ffb3cc;
-  color: white;
-  padding: 1rem 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  font-weight: bold;
+    background-color: #1b5e20;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 4px solid #388e3c;
+    margin-top: 3rem;
 }
