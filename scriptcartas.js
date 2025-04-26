@@ -1,7 +1,7 @@
 const imagen = document.getElementById("cartaInteractiva");
 
 const imagenes = [
-  "1.png",
+  "mine.png",
   "2.png",
   "3.png",
   "4.png",
