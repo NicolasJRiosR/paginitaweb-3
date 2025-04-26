@@ -16,7 +16,7 @@
 p {
   font-size: 20px;
 }
-body{
+body {
   margin: 0;
   padding: 0;
   background-image: url("rubius.jpeg");
@@ -99,7 +99,6 @@ nav ul li a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* Posiciones personalizadas */
 .decoracionRubius img:nth-child(1) {
   top: 10px;
   left: 10px;
@@ -137,8 +136,8 @@ nav ul li a:hover {
 }
 
 .decoracionRubius img:nth-child(7) {
-  left: 50%;
-  top: 2950px;
+  left: 12%;
+  top: 3500px;
   transform: translateX(-50%) rotate(180deg);
   --rot: 180deg;
 }
